@@ -1,0 +1,886 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla LLC. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla LLC                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+/* 
+ADD ALL YOUR CUSTOM CSS OVERRIDES TO THIS FILE. THIS WAY IF YOU MAKE
+A MISTAKE YOU CAN ALWAYS REVERT BACK TO ORIGINAL TEMPLATE CSS
+THIS FILE WILL LOAD VERY LAST AFTER ALL TEMPLATE CSS FILES. IT LOADS EVEN AFTER TEMPLATE_RTL.CSS 
+SO YOU CAN ADJUST ANY CSS PART OF THE TEMPLATE YOU NEED.*/
+/*CUSTOM ITEM CLASS EXAMPLE*/
+/*.horiznav a.newclas{
+	background-image:url(../images/pdf_button.png)!important;
+	background-repeat:no-repeat!important;
+	background-position:95% center!important;
+	
+}*/
+
+
+
+.horiznav li#current a, .horiznav li.active a, .horiznav li.active a:visited, .horiznav li.active.sfHover a:visited, .horiznav li.active.sfHoverHas a:visited {
+    color: #FFD503;
+}
+#yjsg3 a:link, #yjsg3 a:visited {
+    color: #FFD503;
+}
+#yjsg6 h4, #yjsg7 h4 {
+    color: #FFD503;
+}
+.yjsquare h4 span {
+    color: #111111;
+}
+#yjsg6 .yjsquare h4 span {
+	color: #FFD503 !important;
+}
+.horiznav ul li.haschild a:hover {
+	color: #FFD503;
+}
+#topmenu_holder span.yjm_title {
+	font-weight: bold;
+}
+div.itemFullText p {
+    margin: 15px 0;
+	color: #555;
+}
+.Youretro_container .retroimg {
+    height: 90px;
+    width: 160px;
+}
+#user11 img.retroimg {
+	/*height: 90px;
+	width: 120px;*/
+	margin: -6px 0 0 -40px;
+}
+#user11 .yrreader_img img,
+#user11 a.yrreader_img,
+#user11 .yrreader_img span {
+	width: 200px !important;
+	padding: 0 10px 5px 0;
+}
+#user11 div.long_desc {
+	float: none !important;
+}
+.YR_reader .img_holder {
+    margin: 0;
+	text-align: left;
+}
+.YR_reader .yr_into_title {
+    line-height: 1;
+}
+
+#yjsg3 a:hover {
+    color: #565656;
+}
+
+#itgarant-out {
+    height: auto;
+    margin: -30px auto 0 auto;
+    overflow: hidden;
+    width: 1030px;
+}
+
+#bottom_footer p img {
+	padding: 0 5px 0 0;
+	margin-bottom: -10px;
+}
+#itgarant {
+	width: 202px;
+	float: right;
+	padding: 0 10px;
+	line-height: 39px;
+	font-size: 12px;
+}
+#itgarant a.itgarant_white {
+	display: block;
+	float: left;
+	text-decoration: underline;}
+#itgarant a.itgarant_zakazat_sayt {
+	background: url("/images/itgarant_black.png") no-repeat scroll left top transparent;
+	text-align: left;
+	float: right;
+	padding: 0 0 0 41px;
+	display: block;
+	text-decoration: underline;}
+#itgarant a {
+	
+}
+#itgarant a:hover {
+	background-position: left -39px;
+}
+
+
+/* MAP BOTTOM
+-------------------------------------------------------------- */
+.razd-bottom {
+    background: url("../images/razd-bottom.png") repeat-x scroll center top transparent;
+    height: 22px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+#mymap {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+	clear: both;
+}
+#mymap .wrap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.wrap {
+    margin: 0 auto;
+    padding: 0 48px;
+    position: relative;
+    width: 894px;
+}
+#contacts {
+    background: url("../images/bottom-contacts-bg.png") no-repeat scroll 0 0 transparent;
+    color: #FAFAFA;
+    height: 240px;
+    margin: 0 auto;
+    padding: 32px 0 0 40px;
+    position: relative;
+    top: 0;
+    width: 520px;
+    z-index: 20;
+}
+#contacts .addr {
+    bottom: 16px;
+    font-size: 20px;
+    left: 33px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    width: 180px;
+}
+#contacts .inner {
+    left: 190px;
+    position: relative;
+    top: 10px;
+    width: 320px;
+}
+#contacts .label {
+    color: #FFFFFF;
+    float: left;
+    font-size: 15px;
+    width: 100px;
+}
+#contacts .phones {
+    color: #FFCC00;
+    float: left;
+    font-family: Tthin;
+    font-size: 20px;
+    margin-bottom: 5px;
+    width: 190px;
+}
+#contacts .code {
+    color: #FFFFFF;
+}
+#contacts a,
+#contacts a:link,
+#contacts a:visited {
+    text-decoration: none;
+	color: #FFCC00;
+}
+#contacts a:hover {
+    color: #FFFFFF;
+}
+#contacts .inner a {
+    color: #FFCC00;
+    text-decoration: none;
+}
+#contacts .inner a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#contacts .hide {
+    border: medium none;
+    bottom: 12px;
+    color: #FFCC00;
+    font-size: 18px;
+    position: absolute;
+    right: 16px;
+    text-transform: uppercase;
+}
+#contacts .hide span {
+    border-bottom: 1px dotted #FFCC00 !important;
+    position: relative;
+    top: -6px;
+}
+#contacts .hide span:hover {
+    border-bottom: 1px dotted #FFFFFF;
+}
+#contacts .hide.open i {
+    background-position: 0 -241px;
+}
+#contacts .hide i {
+    background: url("../images/sprite1.png") no-repeat scroll -29px -241px transparent;
+    display: inline-block;
+    height: 26px;
+    margin-left: 16px;
+    width: 26px;
+}
+#map {
+    height: 400px;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#masla-line div {
+	height: 75px;
+	display: inline-block;
+	margin: 0px 20px 20px 20px;
+}
+#masla-line a {
+	display: block;
+	height: 75px;
+	background-position: left top;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+#masla-line a:hover {
+	background-position: left -75px;
+}
+#masla-line div.maslo-item-castrol {
+	width: 251px;
+}
+#masla-line div.maslo-item-castrol a {
+	width: 251px;
+	background-image: url(../images/masla-line/castrol-sprite.png);
+}
+
+#masla-line div.maslo-item-shell {
+	width: 65px;
+}
+#masla-line div.maslo-item-shell a {
+	width: 65px;
+	background-image: url(../images/masla-line/shell-sprite.png);
+}
+
+#masla-line div.maslo-item-liqui-moli {
+	width: 113px;
+}
+#masla-line div.maslo-item-liqui-moli a {
+	width: 113px;
+	background-image: url(../images/masla-line/liqui-moli-sprite.png);
+}
+
+#masla-line div.maslo-item-total {
+	width: 227px;
+}
+#masla-line div.maslo-item-total a {
+	width: 227px;
+	background-image: url(../images/masla-line/total-sprite.png);
+}
+
+#masla-line div.maslo-item-zic {
+	width: 120px;
+}
+#masla-line div.maslo-item-zic a {
+	width: 120px;
+background-image: url(../images/masla-line/zic-sprite.png);
+}
+
+#masla-line div.maslo-item-bmw {
+	width: 94px;
+}
+
+#masla-line div.maslo-item-bmw a {
+	width: 94px;
+background-image: url(../images/masla-line/BMW_150.png);
+}
+
+#masla-line div.maslo-item-honda {
+	width: 148px;
+}
+
+#masla-line div.maslo-item-honda a {
+	width: 148px;
+background-image: url(../images/masla-line/honda_sb_150.png);
+}
+
+#masla-line div.maslo-item-moly {
+	width: 113px;
+}
+
+#masla-line div.maslo-item-moly a {
+	width: 113px;
+background-image: url(../images/masla-line/liqui-moli-sprite.png);
+}
+
+#masla-line div.maslo-item-motul {
+	width: 200px;
+}
+
+#masla-line div.maslo-item-motul a {
+	width: 200px;
+background-image: url(../images/masla-line/motul_150.png);
+}
+#masla-line div.maslo-item-toyota {
+	width: 200px;
+}
+
+#masla-line div.maslo-item-toyota a {
+	width: 200px;
+background-image: url(../images/masla-line/toyota_150.png);
+}
+
+
+#rightblock .k2ItemsBlock li a.moduleItemTitle {
+	text-align: center;
+}
+#rightblock .k2ItemsBlock li a.moduleItemImage {
+	margin-left: 15px;
+}
+
+.contact .contact-address {
+	background: url(../images/icons/icon-address.png) no-repeat scroll left center transparent;
+	padding-left: 50px;
+	font-size: 18px;
+}
+.contact .contact-velcom {
+	background: url(../images/icons/icon-velcom.png) no-repeat scroll left center transparent;
+	padding-left: 50px;
+	line-height: 50px;
+	height: 50px;
+	font-size: 18px;
+}
+.contact .contact-mts {
+	background: url(../images/icons/icon-mts.png) no-repeat scroll left center transparent;
+	padding-left: 50px;
+	line-height: 50px;
+	height: 50px;
+	font-size: 18px;
+}
+
+.contact .contact-email {
+	background: url(../images/icons/icon-email.png) no-repeat scroll left center transparent;
+	padding-left: 50px;
+	line-height: 50px;
+	height: 50px;
+	font-size: 18px;
+}
+.contact .contact-bank {
+	font-size: 14px;
+	line-height: 14px;
+	height: 14px;
+	margin: 10px 0;
+}
+.contact .contact-dir {
+	font-size: 14px;
+	line-height: 14px;
+	height: 14px;
+}
+.contact-razd {
+	background: url(../images/retro_line.png) repeat-x scroll left 10px transparent;
+}
+#adv1 div.yjsquare_in {
+	padding: 0 !important;
+}
+#masla-line {
+	margin: 15px auto;
+	width: 1000px; text-align:center
+
+}
+.header_out {
+	clear:both;
+}
+#yjsgheadergrid {
+	float: left;
+}
+
+#cotacts-top {
+	float:right;
+	width: 24.5%;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+#cotacts-top div {
+	padding-left: 50px;
+	line-height: 32px;
+	/*height: 45px;*/
+}
+#cotacts-top span{
+	text-decoration: underline;
+	font-weight: bold; 
+	font-size: 22px;
+	padding-left: 4px;
+}
+#cotacts-top .address-top {
+	background: url(../images/icons/icon-address-small.png) no-repeat scroll left center transparent;
+	margin: 1px 0 0 0;
+}
+#cotacts-top .phone-top {
+	background: url(../images/icons/icon-velcom.png) no-repeat scroll left center transparent;
+	margin-top: 2px;
+}
+#cotacts-top .mts-top {
+	background: url(../images/icons/icon-mts-small.png) no-repeat scroll left center transparent;
+}
+#h1-mainpage {
+	clear: both;
+	text-align: center;
+	margin: 0;
+	background: url(../images/yjsg1_bg.jpg) repeat;
+}
+#h1-mainpage h1 {
+	padding: 0;
+	margin: 0;
+}
+.header_out_mainpage {
+	background: url(../images/yjsg1_bg.jpg) repeat;
+	height: 110px;
+}
+#user1 #yy_slider div.yjme_item p {
+	padding: 0 !important;
+}
+#user1 #yy_slider a.item_readmore span {
+	border: 1px dotted #999999;
+}
+#user1 #yy_slider a:hover {
+	color: #FFFFFF;
+}
+#user1 #yy_slider a.item_readmore span:hover {
+	border: 1px dotted #FFD503;
+}
+.yjme_item a.item_readmore span {
+	padding: 0;
+}
+#yjsg2 .yjme_item a.item_readmore span {
+	border: 1px dotted #999999;
+}
+#contacts-bottom {
+	font-size: 14px;
+	text-align: left;
+}
+#contacts-bottom div span {
+	text-decoration: underline;
+	color: #FFCC00;
+}
+
+#contacts-bottom div {
+	padding-left: 50px;
+	line-height: 50px;
+	height: 50px;
+	font-size: 16px;
+	margin-left: 50px;
+}
+#contacts-bottom .address-bottom {
+	background: url(../images/icons/icon-address.png) no-repeat scroll left center transparent;
+	margin-top: 5px;
+}
+#contacts-bottom .email-bottom {
+	background: url(../images/icons/icon-email.png) no-repeat scroll left center transparent;
+	margin-bottom: 5px;
+}
+#contacts-bottom .mts-bottom {
+	background: url(../images/icons/icon-mts.png) no-repeat scroll left center transparent;
+	margin-bottom: 5px;
+}
+#contacts-bottom .velcom-bottom {
+	background: url(../images/icons/icon-velcom.png) no-repeat scroll left center transparent;
+}
+.newsitem_text p {
+	text-align: justify;
+}
+.slider-caption-bottom {
+    background: #000000;
+    bottom: 0;
+    color: #FFFFFF !important;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    width: 160px;
+	display: block;
+	line-height: 11px;
+}
+
+#contacts-middle {
+	text-align: left;
+}
+#contacts-middle div span {
+	font-weight: bold;
+	color:#000000;
+	font-size: 20px;
+}
+
+
+#contacts-middle div {
+	padding-left: 50px;
+	line-height: 50px;
+	height: 50px;
+	font-size: 16px;
+}
+#contacts-middle .address-middle {
+	background: url(../images/icons/icon-address.png) no-repeat scroll left center transparent;
+	margin-top: 5px;
+	font-weight: bold;
+	color:#000000;
+}
+#contacts-middle .email-middle {
+	background: url(../images/icons/icon-email.png) no-repeat scroll left center transparent;
+	margin-bottom: 5px;
+}
+#contacts-middle .mts-middle {
+	background: url(../images/icons/icon-mts.png) no-repeat scroll left center transparent;
+	margin-bottom: 5px;
+}
+#contacts-middle .velcom-middle {
+	background: url(../images/icons/icon-velcom.png) no-repeat scroll left center transparent;
+}
+
+#itgarant-out div.banners {
+	float: left;
+	margin-top: 4px;
+}
+#itgarant-out div.banners a {
+	opacity: 0.2;
+}
+#itgarant-out div.banners a:hover {
+	opacity: 1.0;
+}
+
+#cotacts-top div.phone-top span,
+#cotacts-top div.mts-top span {
+	color: whitesmoke !important;
+}
+.phone-top a,
+.phone-top a:hover,
+.phone-top a:link {
+	color: grey !important;
+	text-decoration: none !important;
+}
+
+#header .menubutton {
+	display: none;
+}
+
+#adv1 .yjsquare {
+	width: 1000px;
+    margin: auto !important;
+    text-align: center;
+}
+
+
+/* Мой код */
+
+@media (max-width: 640px) {
+
+	body[id^="stylef"] {
+		min-width: 100% !important;
+	} 
+
+	.header_out #header, #header #yjsgheadergrid, #adv1 .yjsquare,
+	#header #cotacts-top, .yjsg1_out #yjsg1, .yjsg1_out #yjsg1 .youretro_cont_border,
+	.yjsg1_out #yjsg1 #Youretro_container, #yjsg1_out #yjsg1 #navigator_outer,
+	.yjsg1_out #yjsg1 #slides, .yjsg2_out #masla-line, .yjsg2_out #yjsg2, .yjsg2_out #yjsg2 #adv2,
+	.yjsg2_out #yjsg2 #adv3, .yjsg2_out #yjsg2 .yjmeretro .yjme_item, .yjsg3_out #yjsg3, 
+	.yjsg3_out #yjsg3 #yy_container, .yjsg3_out #yjsg3 #yy_slider, .yjsg3_out #yjsg3 .yy_slideitems,
+	.yjsg3_out #yjsg3 .yorkretro .yjme_item, #footer
+	{
+		width: 99% !important;
+	}
+	
+	.yjsg2_out #adv1 {
+		width:95% !important;
+	}
+
+
+	#footer #mymap .wrap {
+		display: none;
+	}
+
+	/*Нижний блок перед картой с маслами и т.д.*/
+	.yjsg3_out #yjsg3 .yy_slider .yy_slideitems_in {
+		/* overflow: scroll; */
+		overflow: visible;
+	}
+
+	#yjsg3 {
+		position: relative;
+	}
+
+	.down-news-button, .up-news-button {
+		display: flex;
+    	position: absolute;
+    	width: 50px;
+    	height: 50px;
+    	right: 60px;
+    	background: #ffd503;
+    	color: grey;
+    	font-size: 2em;
+    	font-weight: bold;
+    	border: 1px solid black;
+    	text-shadow: 1px 1px black;
+    	box-sizing: content-box;
+    	text-align: center;
+    	align-items: center;
+    	justify-content: center;
+    	transform: rotate(90deg);
+    	z-index:10;
+	}
+
+	.up-news-button {
+		top:10px;
+	}
+
+	.down-news-button {
+		top:65px;
+	}
+
+	.yjsg2_out #yjsg2 .yjmeretro .yjme_item {
+		text-align: center;
+	}
+
+	.yjsg2_out #yjsg2 .yjmeretro .yjme_item .imageholder {
+		margin:auto;
+	}
+
+	.header_out #header #logo {
+		padding-left:30px;
+	}
+
+	.yjsg2_out #adv1 {
+		padding:10px;
+		text-align: justify;
+	}
+
+	/* Задаем блока позиционирование, и видимость, чтобы можно было скролить только кнопками */
+	#yy_container.yy_container {
+		position: relative;
+		overflow: visible;
+	}
+	
+	/* Его мы будет двигать в контейнерес */
+	#yy_slider.yy_slider {
+		position: absolute;
+		overflow: visible;
+		transition: top 1s;
+	}
+
+	.yy_slideitems_in {
+		overflow: visible;
+	}
+
+	.cmenu {
+		display: none;
+		padding: 10px;
+		background: #ffdf03;
+		border:2px solid yellow;
+		z-index:1000;
+		position: absolute;
+		top:0px;
+		left:0px;
+	}
+
+	.cmenu.closed {
+		display: none;
+	}
+
+	.cmenu.active {
+		display: block;
+	}
+
+	.closebutton {
+    	display: block;
+    	position: absolute;
+    	padding: 5px;
+    	font-size: 2.3em;
+    	font-weight: bold;
+    	top: 0px;
+    	right: -40px;
+    	background: #e40000;
+    	text-shadow: 1px 1px 3px grey;
+    	border: 1px solid black;
+    	color: white;
+	}
+
+	#navigator_outer {
+		display: none;
+	}
+
+	#slides .slide {
+		width:100% !important;
+	}
+
+
+
+	/**/
+
+	.yjnf5retro .yjnewsflash5 p.itemintro, 
+	div.catItemIntroText, div.itemFullText p,
+	ul.menu  {
+		font-size: 1.1em;
+	}
+
+	div.catItemReadMore a {
+		font-weight: bold;
+    	font-size: 1.2em;
+	}
+
+	a:link, a:visited {
+		color: #ef4501/*f37659*/;
+	}
+
+	a.moduleItemTitle, a.moduleItemTitle:visited {
+		font-size: 1.5em;
+    	font-weight: bold;
+	}
+
+	a.moduleItemImage {
+		margin: 10px auto;
+	}
+
+	.moduleItemIntrotext p {
+		font-size: 1.4em;
+	}
+
+
+	#header #yjsgheadergrid {
+		display: none;
+		opacity: 0;
+		background: grey;
+		border-top: 2px solid yellow;
+		border-bottom: 2px solid yellow;
+		padding:15px;
+		height: 0px;
+		transition: all 1s;
+	}
+
+	#header #yjsgheadergrid.visib {
+		display: block;
+		height: auto;
+		opacity: 1;
+		transition: all 1s;
+	}
+
+	#cotacts-top .phone-top {
+		background: url(../images/icons/icon-velcom.png) no-repeat scroll 20px center transparent;
+
+	}
+
+	#cotacts-top {
+		text-align: center;
+		margin-top:20px;
+	}
+	
+	#cotacts-top span{
+		text-decoration: none;
+	}
+
+	#h1-mainpage {
+		padding-top:20px;
+	}
+	
+	div[id^="yjsg"], #yjsgbodytop, #yjsgbodybottom {
+		padding:0px !important;
+	}
+
+	/*Слайдер*/
+
+	#yjsg1_out #yjsg1 #Youretro_container {
+		
+	}
+
+	#header #logo {
+		width:70% !important;
+	}
+
+	#header .menubutton {
+		height: 50px;
+		color: white;
+		font-size: 1.5em;
+		padding-top: 30px;
+		z-index: 2;
+	}
+
+	#cotacts-top div.phone-top span,
+	#cotacts-top div.mts-top span {
+		color: #230505 !important;
+	}
+
+	#header .menubutton {
+		display: block;
+	}
+
+	/* Статьи */
+
+	#centerbottom, #centerbottom #midblock img, #centerbottom #midblock,
+	#centerbottom #rightblock {
+		width:100% !important;
+	}
+
+
+}
+
+
+@media (min-width: 650px) and (max-width: 1100px) {
+	body[id^="stylef"] {
+		min-width: 100% !important;
+	} 
+
+	.header_out #header,.yjsg1_out #yjsg1, .yjsg1_out #yjsg1 .youretro_cont_border, #adv1 .yjsquare,
+	.yjsg1_out #yjsg1 #Youretro_container, #yjsg1_out #yjsg1 #navigator_outer,
+	.yjsg1_out #yjsg1 #slides, .yjsg2_out #masla-line, .yjsg2_out #yjsg2, .yjsg2_out #yjsg2 #adv2,
+	.yjsg2_out #yjsg2 #adv3, .yjsg2_out #yjsg2 .yjmeretro .yjme_item, .yjsg3_out #yjsg3, 
+	.yjsg3_out #yjsg3 #yy_container, .yjsg3_out #yjsg3 #yy_slider, .yjsg3_out #yjsg3 .yy_slideitems,
+	.yjsg3_out #yjsg3 .yorkretro .yjme_item, #footer, #centerbottom
+	{
+		width: 100% !important;
+	}
+
+	#header #logo {
+		width:22% !important;
+	}
+
+	#cotacts-top {
+		width:23% !important;
+	}
+
+	#horiznav a{
+		font-size: 12px;
+	}
+
+	span.yjm_desc {
+		font-size: 10px;
+	}
+	
+	.yjsg2_out #adv1 {
+		width:95% !important;
+	}
+}
+
+@media (min-width: 650px) and (max-width: 950px) {
+	#topmenu_holder {
+		background: rgba(20,20,20,0.5);
+		margin: 0px 10px;
+	}
+
+	#yjsgheadergrid {
+		width:40% !important;
+		border-bottom:2px solid yellow;
+	}
+
+	#cotacts-top, #rightblock {
+		width:30% !important;
+	}
+
+	#midblock {
+		width:70% !important;
+	}
+
+	#midblock img {
+		width: 100%;
+	}
+}
